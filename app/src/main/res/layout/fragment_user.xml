@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.user.UserFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/furniture"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/ic_baseline_info_24"
+            android:drawablePadding="4dp"
+            android:hint="Họ tên"
+            android:inputType="textPersonName"
+            android:padding="18dp"
+            android:textColorHint="@color/teal_700" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/furniture"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="4dp"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:padding="18dp"
+            android:textColorHint="@color/teal_700" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/furniture"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/ic_baseline_account_box_24"
+            android:drawablePadding="4dp"
+            android:hint="Tên đăng nhập"
+            android:inputType="textPersonName"
+            android:padding="18dp"
+            android:textAllCaps="false"
+            android:textColorHint="@color/teal_700" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/furniture"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+            android:drawablePadding="4dp"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:padding="18dp"
+            android:textColorHint="@color/teal_700" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:padding="18dp">
+
+            <RadioButton
+                android:id="@+id/radiobutton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/teal_700"
+                android:text="Nam"
+                android:textColor="@color/teal_700"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/radiobutton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/teal_700"
+                android:text="Nữ"
+                android:textColor="@color/teal_700"
+                android:textSize="18sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnUserSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="Lưu lại"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abackground"
+    tools:context=".LoginActivity">
+
+    <!--    android:text="@string/welcome_to"-->
+    <!--    android:textAppearance="@style/welcome_to"-->
+
+    <TextView
+        android:id="@+id/textCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:gravity="center_horizontal|top"
+        android:text="CHAT FIREBASE"
+        android:textColor="@color/green2"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+    <!--        android:text="@string/furniture"-->
+    <!--        android:textAppearance="@style/furniture" -->
+
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginRight="8dp"
+
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/ic_baseline_account_box_24"
+        android:drawablePadding="4dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="18dp"
+        android:textAllCaps="false"
+        android:textColorHint="@color/teal_700" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="4dp"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:padding="18dp"
+        android:textColorHint="@color/teal_700" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#009688"
+        android:padding="18dp"
+        android:text="Đăng nhập"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#009688"
+        android:padding="18dp"
+        android:text="Đăng ký"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</RelativeLayout>

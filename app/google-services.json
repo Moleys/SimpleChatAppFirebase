@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "189747655145",
+    "project_id": "ltdd-chatfirebase",
+    "storage_bucket": "ltdd-chatfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189747655145:android:12968856933fd52be75b78",
+        "android_client_info": {
+          "package_name": "com.example.ltdd_chatfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189747655145-pcregf6iqqflvj5tgij4qsqe3ib5ba25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfbQGCViapmHnQID-YyHRSj3JAjQgV4wI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189747655145-pcregf6iqqflvj5tgij4qsqe3ib5ba25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
